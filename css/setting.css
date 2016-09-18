@@ -1,0 +1,17 @@
+.setting-content{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.setting-psw{
+	width: 45%;
+	float: left;
+}
+.setting-black{
+	width: 10%;
+	float: left;
+}
+.setting-person{
+	width: 45%;
+	float: left;
+}

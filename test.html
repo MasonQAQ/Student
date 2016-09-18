@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<form id="uploadForm" enctype="multipart/form-data">
+    <input id="file" type="file" name="file"/>
+     <input id="name" type="text" name="name"/>
+    <button id="upload" type="button" onclick="go()">upload</button>
+</form>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script>
+function go(){
+     $.ajax({
+        url: 'test-update.php',
+        type: 'POST',
+        cache: false,
+        data: new FormData($('#uploadForm')[0]),
+        processData: false,
+        contentType: false
+        }).done(function(res) {
+        }).fail(function(res) {});
+    }
+   
+</script>
+</body>
+</html>

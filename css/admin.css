@@ -1,0 +1,42 @@
+body{
+	background-color: #eee;
+}
+.admin-content{
+	background-color: #eee;
+	display: block;
+	height: 500px;
+	margin: 20px auto;
+}
+.admin-list{
+	display: block;
+	width: 70%;
+	float: left;
+}
+.admin-detail{
+	width: 30%;
+	height: 100%;
+	display: none;
+	float: left;
+	background-color: #cfcfcf;
+}
+.margin-left{
+	width: 15%;
+	float: left;
+}
+
+.person-img{
+	height: 100%;
+	margin: 0 auto;
+}
+.person-brief{
+	height: 100%;
+}
+.detail-top{
+	text-align:center;
+	background-color: #cfcfcf;
+	height: 49%;
+}
+.detail-bottom{
+	height: 51%;
+	background-color: #EEE;
+}
